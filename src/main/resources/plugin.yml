@@ -5,10 +5,10 @@ api-version: '1.21'
 
 commands:
   searchcommandblock:
-    permission: searchcommandblock.command
+    permission: commandblocksearch.command
 
 permissions:
-  searchcommandblock.command:
+  commandblocksearch.command:
     default: op
 
-searchcommandblock.command: {}
+commandblocksearch.command: {}
