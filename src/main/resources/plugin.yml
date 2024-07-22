@@ -1,0 +1,14 @@
+name: CommandBlockSearch
+version: '1.0.0'
+main: com.hinaplugin.commandBlockSearch.CommandBlockSearch
+api-version: '1.21'
+
+commands:
+  searchcommandblock:
+    permission: searchcommandblock.command
+
+permissions:
+  searchcommandblock.command:
+    default: op
+
+searchcommandblock.command: {}
