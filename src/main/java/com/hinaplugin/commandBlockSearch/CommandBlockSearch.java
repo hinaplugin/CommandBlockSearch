@@ -10,7 +10,7 @@ public final class CommandBlockSearch extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         plugin = this;
-        PluginCommand command = this.getCommand("searchcommandblock");
+        PluginCommand command = this.getCommand("commandblocksearch");
         if (command != null){
             command.setExecutor(new Commands());
         }
